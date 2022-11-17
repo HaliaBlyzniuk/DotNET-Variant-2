@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data.SqlClient;
 
-namespace Buynovskyy_Lab1
+namespace Blyzniuk_Lab1
 {
     class Program
     {
