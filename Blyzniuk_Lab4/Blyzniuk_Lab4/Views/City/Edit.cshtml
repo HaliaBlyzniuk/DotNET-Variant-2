@@ -1,0 +1,21 @@
+﻿@model Blyzniuk_Lab4.Models.City
+@{
+    ViewBag.Title = "Edit firm";
+}
+<form asp-controller="City" asp-action="Edit" asp-route-id="@Model.Id">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">City</label>
+        <input type="text" asp-for="Name" class="form-control" required />
+    </divCity
+    <div class="form-group">
+        <label asp-for="Code" class="control-label">Code</label>
+        <input type="text" asp-for="Code" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <label asp-for="Rate" class="control-label">Rate</label>
+        <input type="text" asp-for="Rate" class="form-control" required />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Edit" class="btn btn-warning" />
+    </div>
+</form>

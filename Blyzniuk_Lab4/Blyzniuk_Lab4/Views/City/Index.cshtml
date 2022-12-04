@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Blyzniuk_Lab4.Models.City>
+@{
+    ViewData["Title"] = "Cities";
+}
+
+<a asp-action="Create">Add new city</a>
+<table class="table">
+    <tr><td>City</td><td>Code</td><td>Rate</td><td>Options</td><</tr>
+    @foreach (var city in Model) {
+        <tr>
+            <td>@city.Name</td>
+            <td>@city.Code</td>
+            <td>@city.Rate</td>
+            <td>
+                <a asp-controller="City" asp-action="Edit" asp-route-id="@city.Id">Edit</a> |
+                <a asp-controller="City" asp-action="Delete" asp-route-id="@city.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
