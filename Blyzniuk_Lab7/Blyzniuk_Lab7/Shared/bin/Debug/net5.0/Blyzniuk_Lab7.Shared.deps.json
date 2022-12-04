@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Blyzniuk_Lab7.Shared/1.0.0": {
+        "runtime": {
+          "Blyzniuk_Lab7.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Blyzniuk_Lab7.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

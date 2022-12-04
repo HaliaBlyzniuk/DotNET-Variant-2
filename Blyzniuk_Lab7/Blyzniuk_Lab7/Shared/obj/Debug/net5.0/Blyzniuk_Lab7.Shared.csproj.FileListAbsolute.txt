@@ -1,0 +1,12 @@
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\bin\Debug\net5.0\Blyzniuk_Lab7.Shared.deps.json
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\bin\Debug\net5.0\Blyzniuk_Lab7.Shared.dll
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\bin\Debug\net5.0\ref\Blyzniuk_Lab7.Shared.dll
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\bin\Debug\net5.0\Blyzniuk_Lab7.Shared.pdb
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.csproj.AssemblyReference.cache
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.AssemblyInfoInputs.cache
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.AssemblyInfo.cs
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.csproj.CoreCompileInputs.cache
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.dll
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\ref\Blyzniuk_Lab7.Shared.dll
+E:\MVS\Repos\Blyzniuk_Lab7\Shared\obj\Debug\net5.0\Blyzniuk_Lab7.Shared.pdb
