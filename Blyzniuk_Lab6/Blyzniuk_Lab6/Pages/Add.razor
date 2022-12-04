@@ -1,0 +1,38 @@
+﻿@page "/add"
+
+@inject CityService service
+@inject NavigationManager navigationManager
+
+<form>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="form-group">
+                <label for="Name" class="control-label">Name</label>
+                <input form="Name" class="form-control" @bind="@city.Name" required/>
+            </div>
+            <div class="form-group">
+                <label for="Code" class="control-label">Code</label>
+                <input form="Code" class="form-control" @bind="@city.Code" required/>
+            </div>
+            <div class="form-group">
+                <label for="Rate" class="control-label">Rate</label>
+                <input form="Rate" class="form-control" @bind="@city.Rate" required/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-primary" @onclick="@Save" value="Add" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@code {
+    City city = new City();
+    protected async void Save() {
+        await service.AddCity(city);
+        navigationManager.NavigateTo("/");
+    }
+}

@@ -1,0 +1,48 @@
+﻿@page "/delete/{id}"
+
+@inject CityService service
+@inject NavigationManager navigationManager
+
+<form>
+    <div class="row">
+        <div class=" col-md-8">
+            <div class="form-group">
+                <label>Id: </label>
+                <label>@city.Id</label>
+            </div>
+            <div class="form-group">
+                <label>Name: </label>
+                <label>@city.Name</label>
+            </div>
+            <div class="form-group">
+                <label>Code: </label>
+                <label>@city.Code</label>
+            </div>
+            <div class="form-group">
+                <label>Rate: </label>
+                <label>@city.Rate</label>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <input type="button" class="btn btn-danger" @onclick="@Remove" value="Delete" />
+            </div>
+        </div>
+    </div>
+</form>
+
+@code {
+    [Parameter]
+    public string id { get; set; }
+    City city = new City();
+    protected override async Task OnInitializedAsync() {
+        city = await service.GetCityById(Guid.Parse(id));
+    }
+    protected async void Remove()
+    {
+        await service.DeleteCity(city);
+        navigationManager.NavigateTo("/");
+    }
+}
